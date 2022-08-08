@@ -13,7 +13,7 @@ esp.osdebug(None)
 gc.collect() 
 
 # get configuration from file
-config = json.loads(open('.config', 'r').read())
+config = json.loads(open('.conf', 'r').read())
 
 # connect to wifi
 station = network.WLAN(network.STA_IF)
